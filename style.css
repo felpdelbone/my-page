@@ -1,0 +1,64 @@
+body{
+    background: linear-gradient(black, white);
+    width: 100vw;
+    height: 100vw;
+    
+}
+
+.img .img-topo-site{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+   display: flex;
+   justify-content: center;
+  }
+
+@keyframes flutuar{
+    0%{
+      top: 0;
+    }
+    100%{
+      top: 30px;
+    }
+}
+
+.flex{
+    display: flex;
+    width: 600px;
+    height: 250px;
+    padding: 40px ;
+}
+
+section .especialiadades{
+    padding: 40px 4%;
+  }
+  
+  section.especialiadades .flex{
+    gap: 60px; 
+  }
+  
+  .especialiadades .especialidades-box{
+  color: #fff;
+  padding: 40px 4%;
+  border-radius: 20px;
+  border: 2px solid #fff;
+  margin-top: 45px;
+  }
+  .especialiadades .especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #fff;
+    transition: .2s;
+  }
+  
+  .especialiadades .especialidades-box i{
+    font-size: 70px;
+    color: bisque;
+  }
+  .especialiadades .especialidades-box h3{
+    font-size: 26px;
+    margin: 15px 0;
+  }
+h1{
+    color: #fff;
+    text-align: center;
+}  
+
